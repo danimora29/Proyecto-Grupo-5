@@ -1,0 +1,26 @@
+#lista para almacenar las órdenes de muebles
+ordenes= []
+
+#información de la orden al usuario
+nombre= input("Ingrese el nombre del cliente: ")
+id= input("Ingrese el ID del cliente: ")
+fecha1= input("Ingrese la fecha del pedido (DD/MM/AA): ")
+fecha2= input("Ingrese la fecha de entrega estimada (DD/MM/AA): ")
+descrip= input("Ingrese la descripción del mueble: ")
+tipoMadera= input("Ingrese el tipo de madera: ")
+costo= float(input("Ingrese el costo final: "))
+
+#costo total con IVA
+costoTotal= costo *1.13
+
+#diccionario con la información de la orden
+orden = {
+    "nombre": nombre,
+    "id": id_cliente,
+    "fecha1": fecha_pedido,
+    "fecha2": fecha_entrega,
+    "descrip": descripcion,
+    "tipoMadera": tipo_madera,
+    "costo": costo,
+    "costoTotal": costo_total
+}
